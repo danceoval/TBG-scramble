@@ -52,11 +52,11 @@
 						$('br').remove();
 						$('span').each(function(i) {
 							if($(this).is(':visible')){
-			           $(this).remove();
-			        } else if ($(this).is(':hidden')) {
-			           hiddenArr.push($(this).text());
-			           $(this).remove();   
-			        }; 
+						           $(this).remove();
+						        } else if ($(this).is(':hidden')) {
+						           hiddenArr.push($(this).text());
+						           $(this).remove();   
+						        }; 
 						});
 						//Join elements and append to DOM
 						var msg = hiddenArr.join('');
