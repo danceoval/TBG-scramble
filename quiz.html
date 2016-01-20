@@ -39,7 +39,8 @@
 						}
 						//Append Each Scrambling to the DOM
 						for(var k = 0; k < answersArr.length; k++) {
-							$('body').append("<h4>Scramble # " + k + ": " + answersArr[k] + "</h4>");
+
+							$('body').append("<h4>Scramble # " + (k + 1)  + ": " + answersArr[k] + "</h4>");
 						}
 						return;
 					},
